@@ -1,3 +1,4 @@
-You developer friend has been working on their python skills. However, coming from another language can lead to some pesky syntax errors.
+Your developer friend has been learning Python. However, coming from another language can lead to some pesky syntax errors.
 
-Work throught the following python files. Uncomment the code and correct the errors to ensure the python runs as expected.
+Work through the python files. Uncomment the code and correct the errors to ensure the python runs as expected.
+You can use the [Python documentation](https://docs.python.org/3/) to help you.

@@ -1,5 +1,3 @@
-# Capitalise string
-
-# name = "david"
+# name = 'david'
 
 # print(name[0].toUpperCase() + name.slice(1))
