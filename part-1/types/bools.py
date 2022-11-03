@@ -1,4 +1,4 @@
-# Read through the following expressions and predict the output once printed.
+# Read through the following expressions and predict the output printed output.
 # Justify your predictions in a comment below each expression
 
 # 1.

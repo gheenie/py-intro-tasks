@@ -1,3 +1,3 @@
-# const greeting = "Hello there!";
+# const greeting = 'Hello there!';
 
 # console.log(greeting);
