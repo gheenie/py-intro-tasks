@@ -1,4 +1,3 @@
-from test_api import test_func as test
 # Create the function measure_words which takes a string of words separated by
 # commas. It should return a dictionary which records the length of each word.
 # Each property should be of the form str: int, where the key is in lowercase.
@@ -11,6 +10,20 @@ def measure_words():
 
 
 #tests
-test.check(measure_words(''), {})
-test.check(measure_words('hello'), {'hello': 1})
-test.check(measure_words('multiple, words, are, fun'), {'multiple': 8, 'words': 5, 'are': 3, 'fun': 3})
+def test_returns_empty_dict_when_passed_empty_str():
+    expected = {}
+    result = measure_words('')
+
+    assert result == expected
+
+def test_assigns_property_for_single_word():
+    expected = {'hello': 1}
+    result = measure_words('hello')
+
+    assert result == expected
+
+def test_assigns_property_for_multiple_words():
+    expected = {'multiple': 8, 'words': 5, 'are': 3, 'fun': 3}
+    result = measure_words('multiple, words, are, fun')
+
+    assert result == expected
