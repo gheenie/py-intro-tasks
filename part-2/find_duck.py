@@ -11,7 +11,23 @@ def find_duck():
     pass
 
 # tests
-test.check(find_duck('🦆'), 1)
-test.check(find_duck('🐄 🐖 🦆 🐑 🦙'), 3)
-test.check(find_duck('🐄 🐖 🐑 🦙'), -1)
+
+def test_finds_lonesome_duck():
+    expected = 1
+    result = find_duck('🦆')
+
+    assert result == expected
+
+def test_finds_duck_in_the_queue():
+    expected = 3
+    result = find_duck('🐄 🐖 🦆 🐑 🦙')
+
+    assert result == expected
+
+def test_handles_non_existant_duck():
+    expected = -1
+    result = find_duck('🐄 🐖 🐑 🦙')
+
+    assert result == expected
+
 

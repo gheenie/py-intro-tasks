@@ -1,4 +1,3 @@
-from test_api import test_func as test
 # Complete the function get_length which returns the length of any passed string, ignoring whitespace characters.
 # eg. get_length('hello there!') => 11
 
@@ -8,7 +7,22 @@ def get_length():
 
 
 # tests
-test.check(get_length('a'), 1)
-test.check(get_length('tofu'), 4)
-test.check(get_length('Linda McCartney sausages'), 22)
+
+def test_measures_the_length_of_single_char():
+    expected = 1
+    result = get_length('a')
+
+    assert result == expected
+
+def test_measures_the_length_of_single_word():
+    expected = 4
+    result = get_length('tofu')
+
+    assert result == expected
+
+def test_ignores_white_spaces():
+    expected = 22
+    result = get_length('Linda McCartney sausages')
+
+    assert result == expected
 
