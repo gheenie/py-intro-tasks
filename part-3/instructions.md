@@ -11,7 +11,7 @@ For simplicity the tests are written below the function definition. To run the a
 pytest <file name>
 ```
 
-You should work thought the functions in the following order:
+You should work through the functions in the following order:
 
 1. multiplication_table
 2. tally
