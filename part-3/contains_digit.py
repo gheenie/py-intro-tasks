@@ -14,7 +14,7 @@ def test_evaluates_numerals_units_position():
 
     assert result == expected
 
-def test_evaluates_numerals_units_position():
+def test_evaluates_numerals_all_positions():
     expected = [9, 19, 29, 39, 49, 59, 69, 79, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
     result = contains_digit(9)
 
