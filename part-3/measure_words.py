@@ -17,7 +17,7 @@ def test_returns_empty_dict_when_passed_empty_str():
     assert result == expected
 
 def test_assigns_property_for_single_word():
-    expected = {'hello': 1}
+    expected = {'hello': 5}
     result = measure_words('hello')
 
     assert result == expected

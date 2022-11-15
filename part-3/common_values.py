@@ -15,7 +15,7 @@ def test_returns_empty_set_for_empty_lists():
 
 def test_returns_common_value_in_same_postion():
     expected = {'a'}
-    result = common_values(['a']['a'])
+    result = common_values(['a'], ['a'])
 
     assert result == expected
 
