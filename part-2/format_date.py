@@ -36,5 +36,5 @@ def test_outliers():
     assert result == expected
     
     expected = 'Thursday 13th January 2022'
-    result = format_date('13.01.22')
+    result = format_date('13/01/22')
     assert result == expected
