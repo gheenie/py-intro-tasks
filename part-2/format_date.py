@@ -25,3 +25,16 @@ def test_converts_millenials():
     result = format_date('28/06/1989')
 
     assert result == expected
+
+def test_outliers():
+    expected = 'Tuesday 11th January 2022'
+    result = format_date('11/01/2022')
+    assert result == expected
+
+    expected = 'Wednesday 12th January 2022'
+    result = format_date('12/01/2022')
+    assert result == expected
+    
+    expected = 'Thursday 13th January 2022'
+    result = format_date('13.01.22')
+    assert result == expected
