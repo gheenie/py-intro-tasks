@@ -21,3 +21,4 @@ You should work thought the functions in the following order:
 6. measure_words
 7. even_odd
 8. fizz_buzz_zip
+9. format_date
