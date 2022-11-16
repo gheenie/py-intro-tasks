@@ -22,5 +22,5 @@ You should work thought the functions in the following order:
 7. alternate_case
 8. rock_paper_scissors
 9. extract_vowels
-10. get_age
+10. get_length
 11. is_uppercase
