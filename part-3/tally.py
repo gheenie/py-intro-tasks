@@ -1,4 +1,4 @@
-# Create the function tally which when given a list, creates at dictionary which counts the occurances of each item.
+# Create the function tally which when given a list, creates at dictionary which counts the occurences of each item.
 
 # eg. tally(['dog', 'pineapple', 'pineapple', 'furby' 'pineapple']) => {'dog: 1, 'pineapple': 3, 'furby':1}
 
