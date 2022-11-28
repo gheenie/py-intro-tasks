@@ -1,4 +1,5 @@
 # file_path = 'C:\user\northcoders\secrets\my-first-love.txt'
+# The string above represents a file path, it is your job to manipulate this string in order to achieve the desired results below.
 
 # print(file_path)
 
