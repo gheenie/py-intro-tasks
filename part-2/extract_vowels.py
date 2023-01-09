@@ -31,7 +31,7 @@ def test_returns_muliple_vowels_in_string():
 
 
 def test_antelopes_are_fun():
-    expected = 'aeeo'
+    expected = 'aeoe'
     result = extract_vowels('antelope')
 
     assert result == expected
