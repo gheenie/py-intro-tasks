@@ -22,7 +22,7 @@ which should create a `venv` directory at the root of your project. Run the _act
 source venv/bin/activate
 ```
 
-Don't forget to deactivate you virtual environment with:
+Don't forget to deactivate your virtual environment afterwards with:
 
 ```sh
 deactivate

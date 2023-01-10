@@ -6,8 +6,27 @@
 # eg. fizz_buzz_zip([1,3,5,1,2],[4,2,2,1,15]) => [1, 4, 'fizz', 2, 'buzz', 2, 1, 1, 2, 'fizzbuzz']
 
 
-def fizz_buzz_zip():
-    pass
+def fizz_buzz_zip(list_a, list_b):
+    long_list, short_list = (list_a, list_b) if len(list_a) >= len(list_b) else (list_b, list_a)
+    zipped = []
+    for i, item in enumerate(long_list):
+        zipped.append(translate_num(item))
+        try:
+            zipped.append(translate_num(short_list[i]))
+        except IndexError:
+            pass
+    return zipped
+
+def translate_num(num):
+    if num % 3 == 0 and num % 5 == 0:
+        return 'fizzbuzz'
+    if num % 3 == 0:
+        return 'fizz'
+    if num % 5 == 0:
+        return 'buzz'
+    return num
+
+
 
 #tests
 def test_returns_empty_list_when_past_two_empty_lists():
@@ -19,6 +38,12 @@ def test_returns_empty_list_when_past_two_empty_lists():
 def test_inserts_item_from_first_list_into_final_list():
     expected = [1]
     result = fizz_buzz_zip([1],[])
+
+    assert result == expected
+
+def test_inserts_item_from_second_list_only_into_final_list():
+    expected = [1]
+    result = fizz_buzz_zip([],[1])
 
     assert result == expected
 

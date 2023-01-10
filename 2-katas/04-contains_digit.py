@@ -2,9 +2,13 @@
 # eg. contains_digit(9) = >[9, 19, 29, 39, 49, 59, 69, 79, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
 #     contains_digit(50) = >[50]
 
-def contains_digit():
-    pass
+def contains_digit(digit):
+    # digits = []
+    # for num in range(1,101):
+    #     if str(digit) in str(num):
+    #         digits.append(num)
 
+    return [num for num in range(1,101) if str(digit) in str(num)]
 
 #tests
 

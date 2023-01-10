@@ -2,9 +2,12 @@
 # eg. multiples(20) => [20, 40, 60, 80, 100]
 # eg. multiples(75) => [75]
 
-def multiples():
-    pass
-
+def multiples(num):
+    multiple_list = []
+    for i in range(1,101):
+        if i % num == 0:
+            multiple_list.append(i)
+    return multiple_list
 
 
 

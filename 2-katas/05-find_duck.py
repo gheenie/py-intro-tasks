@@ -1,3 +1,4 @@
+import math
 # Complete the function find_duck which takes a queue of farmyard animals.
 # Return the position the duck is at in the queue assuming that the first postion is the animal at the far left of the queue.
 # Farmyard animal respect each other's personal space, each animal is one white space away from the one in front.
@@ -7,7 +8,11 @@
 
 
 def find_duck(farm):
-    pass
+    index = farm.find('🦆')
+    if index == -1:
+        return index
+        
+    return math.ceil((farm.find('🦆') + 1) / 2)
 
 # tests
 

@@ -4,8 +4,13 @@
 #     extract_vowels('greetings everyone') => 'eeeeeio'
 
 
-def extract_vowels():
-    pass
+def extract_vowels(string):
+    extracted_vowels = ''
+    VOWELS = {'a','e','i','o','u'}
+    for char in string:
+        if char in VOWELS:
+            extracted_vowels += char
+    return extracted_vowels
 
 
 # tests
@@ -31,7 +36,7 @@ def test_returns_muliple_vowels_in_string():
 
 
 def test_antelopes_are_fun():
-    expected = 'aeeo'
+    expected = 'aeoe'
     result = extract_vowels('antelope')
 
     assert result == expected

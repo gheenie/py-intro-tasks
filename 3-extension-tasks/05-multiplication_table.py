@@ -1,12 +1,12 @@
-# Create the function multiplication_table. It should accept an integer and generate a dictionary representing its multiplication table for up to 5.
+# Create the function multiplication_table. It should accept an integer and generate a dictionary representing its multiplication table up to 5.
 # The key should be a tuple representing the two numbers being multiplied, the value should be product of those two numbers.
 # eg. multiplication_table(5) => {(1, 5): 5, (2, 5): 10, (3, 5): 15, (4, 5):20, (5, 5): 25}
 
 
 
 
-def multiplication_table():
-    pass
+def multiplication_table(num):
+    return {(i, num): i * num for i in range(1, 6)}
 
 
 

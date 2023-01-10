@@ -2,8 +2,8 @@
 # eg. get_length('hello there!') => 11
 
 
-def get_length():
-    pass
+def get_length(string):
+    return len(string.replace(' ',''))
 
 
 # tests
