@@ -4,13 +4,8 @@
 #     extract_vowels('greetings everyone') => 'eeeeeio'
 
 
-def extract_vowels(string):
-    extracted_vowels = ''
-    VOWELS = {'a','e','i','o','u'}
-    for char in string:
-        if char in VOWELS:
-            extracted_vowels += char
-    return extracted_vowels
+def extract_vowels():
+    pass
 
 
 # tests

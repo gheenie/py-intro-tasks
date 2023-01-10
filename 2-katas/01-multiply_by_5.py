@@ -3,8 +3,8 @@
 
 
 
-def multiply_by_5 (a):
-    return a * 5
+def multiply_by_5 ():
+    pass
 
 
 

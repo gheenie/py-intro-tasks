@@ -3,14 +3,8 @@
 # eg. even_odd([5]) => ['odd']
 #     even_odd([1,30,21,4,88]) => ['odd', 'even', 'odd', 'even', 'even']
 
-def even_odd(nums):
-    descriptors = []
-    for num in nums:
-        if num % 2 == 0:
-            descriptors.append('even')
-        else:
-            descriptors.append('odd')
-    return descriptors
+def even_odd():
+    pass
             
 
 #tests

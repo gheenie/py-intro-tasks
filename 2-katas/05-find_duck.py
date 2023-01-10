@@ -7,12 +7,8 @@ import math
 # eg. find_duck('🐖 🐄 🐖 🐑 🦆 🐖') => 5
 
 
-def find_duck(farm):
-    index = farm.find('🦆')
-    if index == -1:
-        return index
-        
-    return math.ceil((farm.find('🦆') + 1) / 2)
+def find_duck():
+    pass
 
 # tests
 

@@ -3,20 +3,8 @@
 
 
 
-def alternate_case(word):
-    alt_case = ''
-    is_upper = True
-    for char in word:
-        if char == ' ':
-            alt_case += char
-            continue
-        elif is_upper:
-            alt_case += char.upper()
-        else:
-            alt_case += char.lower()
-        is_upper = not is_upper
-    
-    return alt_case
+def alternate_case():
+    pass
 
 
 

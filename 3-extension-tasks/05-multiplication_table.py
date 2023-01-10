@@ -5,8 +5,8 @@
 
 
 
-def multiplication_table(num):
-    return {(i, num): i * num for i in range(1, 6)}
+def multiplication_table():
+    pass
 
 
 

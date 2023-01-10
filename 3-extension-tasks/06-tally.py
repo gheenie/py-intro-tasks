@@ -3,11 +3,8 @@
 # eg. tally(['dog', 'pineapple', 'pineapple', 'furby' 'pineapple']) => {'dog: 1, 'pineapple': 3, 'furby':1}
 
 
-def tally(items):
-    tally = {}
-    for item in items:
-        tally[item] = tally.get(item, 0) + 1
-    return tally
+def tally():
+    pass
 
 
 

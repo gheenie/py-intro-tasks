@@ -5,10 +5,8 @@
 # eg. measure_words('Ficus, Alocasia, Begonia') => {'ficus': 5, 'alocasia': 8, 'begonia':7}
 
 
-def measure_words(words):
-    if words == '':
-        return {}
-    return {word:len(word) for word in words.split(', ')}
+def measure_words():
+    pass
 
 
 #tests

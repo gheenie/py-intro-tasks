@@ -5,8 +5,8 @@ import math
 #     is_square_num(7) => False
 
 
-def is_square_num(num):
-    return math.sqrt(num) == round(math.sqrt(num))
+def is_square_num():
+    pass
 
 
 #tests

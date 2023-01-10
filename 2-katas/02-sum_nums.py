@@ -3,8 +3,8 @@
 #     sum_nums(3, 4, 5, 6) => 18
 
 
-def sum_nums(*args):
-    return sum(args)
+def sum_nums():
+    pass
 
 
 #tests
