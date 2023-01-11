@@ -1,10 +1,11 @@
 # Python Foundations
 
-This repo is split into three distinct sections:
+This repo is split into three sections:
 
 -   **`Syntax and Control Flow`** offers you the opportunity to get to grips with some of the basic syntax in Python. It will encourage you to predict behaviour, investigate control flow, and familiarise yourself with pythonic operators.
 
 -   **`Katas`** will introduce function syntax. It will allow you to develop your problem solving techniques whilst researching tools available in Python. The tests are already written underneath the declaration. _We will look at a more formal approach to TDD in a later session._
+    
     In order to run the tests you'll need to install `pytest`.
 
 ```sh
