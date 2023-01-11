@@ -19,7 +19,7 @@ def test_capitalises_first_character():
 
 def test_lowercases_second_character():
     expected_second_char = "i"
-    result = alternate_case("Hi")
+    result = alternate_case("HI")
 
     assert result[1] == expected_second_char
 
