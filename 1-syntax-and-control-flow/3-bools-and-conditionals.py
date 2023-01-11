@@ -18,7 +18,10 @@
 
 
 # 5.
-'Python' > 'JavaScript'
+if 'Python' > 'JavaScript':
+    current_thoughts = '🐍🐍🐍'
+else:
+    current_thoughts = 'Take me back to Node!'
 
 
 # 6.
@@ -30,7 +33,7 @@
 
 
 # 8.
-14 != 14.0
+fav_animal = '🐈' if 36**2 > 1300 else '🐕'
 
 
 # 9.
@@ -43,5 +46,3 @@
 
 # 11.
 5 > 10 or 4
-
-
