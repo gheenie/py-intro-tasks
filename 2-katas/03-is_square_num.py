@@ -5,8 +5,8 @@ import math
 #     is_square_num(7) => False
 
 
-def is_square_num():
-    pass
+def is_square_num(num):
+    return str( math.sqrt(num) ).endswith('.0')
 
 
 #tests

@@ -7,8 +7,11 @@ import math
 # eg. find_duck('🐖 🐄 🐖 🐑 🦆 🐖') => 5
 
 
-def find_duck():
-    pass
+def find_duck(queue):
+    try:
+        return queue.replace(' ', '').index('🦆') + 1
+    except:
+        return -1
 
 # tests
 

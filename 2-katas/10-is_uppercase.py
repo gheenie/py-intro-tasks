@@ -4,8 +4,12 @@
 #     is_uppercase('banAna') => True
 
 
-def is_uppercase():
-    pass
+def is_uppercase(str):
+    for char in str:
+        if char.isupper():
+            return True
+    
+    return False
 
 
 #tests

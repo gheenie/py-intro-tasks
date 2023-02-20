@@ -4,8 +4,14 @@
 #     extract_vowels('greetings everyone') => 'eeeeeio'
 
 
-def extract_vowels():
-    pass
+import re
+
+def extract_vowels(str):
+    vowels = re.findall('[aeiou]', str)
+    
+    vowels.sort()
+    
+    return ''.join(vowels)
 
 
 # tests

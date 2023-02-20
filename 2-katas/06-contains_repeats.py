@@ -3,8 +3,8 @@
 #     contains_repeats('pear') => False
 
 
-def contains_repeats():
-    pass
+def contains_repeats(str):
+    return len( set(str) ) != len(str)
 
 
 # tests
