@@ -2,8 +2,8 @@
 # eg.  common_values([1, 4, 'dog'],['dog', False, 2, 1]) => {1, 'dog'}
 
 
-def common_values():
-   pass
+def common_values(arr1, arr2):
+   return set(arr1).intersection( set(arr2) )
 
 
 #tests

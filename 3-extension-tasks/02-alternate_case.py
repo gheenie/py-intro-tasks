@@ -3,9 +3,23 @@
 
 
 
-def alternate_case():
-    pass
+def alternate_case(string):
+    alternated_string = ''
+    should_capitalise = True
 
+    for char in string:
+        if not char.isalpha():
+            alternated_string += char
+            continue
+        
+        if should_capitalise:
+            alternated_string += char.upper()
+            should_capitalise = False
+        else:
+            alternated_string += char.lower()
+            should_capitalise = True
+    
+    return alternated_string
 
 
 

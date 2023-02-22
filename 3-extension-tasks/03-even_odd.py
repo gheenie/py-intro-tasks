@@ -3,8 +3,14 @@
 # eg. even_odd([5]) => ['odd']
 #     even_odd([1,30,21,4,88]) => ['odd', 'even', 'odd', 'even', 'even']
 
-def even_odd():
-    pass
+def even_odd(nums):
+    def evaluate_even_odd(num):
+        if num % 2 == 0:
+            return 'even'
+        
+        return 'odd'
+    
+    return list( map(evaluate_even_odd, nums) )
             
 
 #tests
